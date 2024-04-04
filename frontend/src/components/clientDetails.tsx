@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Client } from "../clientTypes";
 
-
 import ClientImage from "./clientImage";
 import axios from "axios";
 
@@ -11,7 +10,7 @@ interface ClientDetailsProps {
 
 const ClientDetails: React.FC<ClientDetailsProps> = ({ client }) => {
   const [images, setImages] = useState<string[]>([]);
- 
+
   const fetchImages = async () => {
     const response = await axios(
       `https://api.unsplash.com/photos/random/?count=9&client_id=-I9pHn59y0Ys-mE9mrIc2NFoyJdrBfq1l5ItQdbrcbg`
