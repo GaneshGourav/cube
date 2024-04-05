@@ -32,35 +32,35 @@ Props:
 * The application includes CSS styles for layout, styling client cards, client details, and client images. It also provides a loading indicator for when images are being fetched.
 
 
-#### Infinite Scroll:
+### Infinite Scroll:
 
 * The ClientList component now supports infinite scroll. As you scroll down the list, more clients will be loaded automatically.
-### Setup Instructions
-## To run the application:
+## Setup Instructions
+### To run the application:
 
 * Clone this repository to your local machine.
 * Navigate to the project directory in your terminal.
 * Install dependencies by running npm install.
 * Start the development server by running npm run dev.
 
-### Technologies Used
+## Technologies Used
 * React
 * Axios for making HTTP requests
 * CSS for styling
 
-  ### ScreenShot :
-  * Home Page:
+## ScreenShot :
+* Home Page:
  
     
-  ![cube-home](https://github.com/GaneshGourav/cube/assets/119353884/e69c84fb-75b5-4c47-9f0a-c286c4740e7e)
+![cube-home](https://github.com/GaneshGourav/cube/assets/119353884/e69c84fb-75b5-4c47-9f0a-c286c4740e7e)
 
-  * Loading Indicator:
+* Loading Indicator:
  
-    ![cube-loading](https://github.com/GaneshGourav/cube/assets/119353884/f70fd22f-589e-4834-82ba-21806d579161)
+![cube-loading](https://github.com/GaneshGourav/cube/assets/119353884/f70fd22f-589e-4834-82ba-21806d579161)
 
-   * Details With Images:
+* Details With Images:
 
-     ![cube-images](https://github.com/GaneshGourav/cube/assets/119353884/f5d58875-01f6-44a9-b415-65ada6ccc07c)
+![cube-images](https://github.com/GaneshGourav/cube/assets/119353884/f5d58875-01f6-44a9-b415-65ada6ccc07c)
 
 ### Credits
 This application uses the Unsplash API to fetch random images.
