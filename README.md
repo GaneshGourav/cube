@@ -1,6 +1,7 @@
-### React Client Management Application
+## React Client Management Application
 This is a simple React application designed for managing client information. It consists of components for displaying a list of clients, selecting a client to view their details, and displaying client images fetched from the Unsplash API.
-
+## Deployed Link:
+https://cube-kappa.vercel.app/
 ### Components
 1. ClientList
 This component displays a list of clients in the form of cards. Each card contains basic information about the client such as name and designation.
@@ -45,6 +46,7 @@ Props:
 
 ## Technologies Used
 * React
+* TypeScript
 * Axios for making HTTP requests
 * CSS for styling
 
